@@ -1,4 +1,3 @@
-import { react } from "react";
 
 function Heading() {
   return (
@@ -6,7 +5,7 @@ function Heading() {
       <div className="row mt-3">
         <div className="col-2"></div>
         <div className="col-8">
-          <h2 className="title" >Price Compare</h2>
+          <h2 className="title" >Mobile Phone Price Compare Application</h2>
         </div>
         <div className="col-2"></div>
       </div>

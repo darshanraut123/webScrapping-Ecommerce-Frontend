@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Banner from "./Banner";
 
-function Content({ title, amazon, flipkart, snapdeal }) {
-  let [banners, setBanners] = useState([amazon, flipkart, snapdeal]);
+function Content({ title, amazon, flipkart, vijaysales }) {
+  let [banners, setBanners] = useState([amazon, flipkart, vijaysales]);
   return (
     <div className="container mt-5">
       <div className="row">

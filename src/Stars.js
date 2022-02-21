@@ -18,7 +18,7 @@ function Stars({ ratings }) {
   return (
     <>
       {starData.map((strObj) => (
-        <span className={`fa fa-star ${strObj}`}></span>
+        <span key={Math.random()} className={`fa fa-star ${strObj}`}></span>
       ))}
     </>
   );
