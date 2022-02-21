@@ -1,0 +1,134 @@
+
+  body {
+    background-color: gainsboro;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+
+  } 
+  
+  .heading{
+    min-height: 100px;
+    background-color: black;
+  }
+
+  .card{
+    box-shadow: 5px 5px 5px 5px slategrey;
+  }
+  .title{
+    padding-top: 25px;
+    font-size:50px;
+    text-transform: uppercase;
+    color:#999;
+    font-weight: 600;
+  }
+  .price-comparison {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  .price-column {
+    background-color: white;
+    box-shadow: 0 7px 30px rgba(52, 31, 97, 0.1);
+    padding: 2rem;
+    max-width: 28%;
+    border-radius: 8px;
+    margin: 10px;
+
+  }
+
+  .price-column:first-child {
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  
+  .price-column:last-child {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+  }
+  
+  .price-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+  }
+  
+  .price {
+    font-size: 1.3rem;
+    display: flex;
+    color: greenyellow;
+
+  }
+  
+  .del-price{
+    font-size: 1.3rem;
+    display: flex;
+    color: gainsboro;
+
+  }
+
+  .title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-left: 30px;
+  }
+
+  .dollar-sign {
+    font-size: 1rem;
+    margin-top: .1rem;
+    margin-right: .25rem;
+  }
+  
+  .plan-name {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .price-column.popular .divider {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+  }
+
+  .feature.inactive {
+    color: #999;
+    text-decoration-line: line-through;
+  }
+  
+  .price-column:hover, .price-column:focus {
+    transform: scale(1.1);
+  }
+
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+
+  .prod_image{
+    margin-top:20px;
+    height: 150px;
+    width:200px;
+  }
+  .stars{display: flex;justify-content: center;align-items: center;}
